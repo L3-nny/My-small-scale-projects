@@ -34,12 +34,12 @@ This is how it looks like at the moment:
 ## Errors present
 1. These values are based on estimations since I don't time how long I stay in the bathroom, how long my speaker is on or how long the lights stay on.
 
-3. The code assumes constant power consumption for each appliance. In reality, appliances may have variable power usage depending on their operation.
+2. The code assumes constant power consumption for each appliance. In reality, appliances may have variable power usage depending on their operation.
 For example, a speaker’s power consumption can vary with volume.
 
-5. The code does not account for appliances that consume power even when not actively in use (standby power). This can be significant for some devices like chargers.
-6. 
-7. The code assumes non-overlapping usage of appliances (e.g., I'm either using the shower or the bulbs, but not both at the same time). If multiple
+3. The code does not account for appliances that consume power even when not actively in use (standby power). This can be significant for some devices like chargers.
+  
+4. The code assumes non-overlapping usage of appliances (e.g., I'm either using the shower or the bulbs, but not both at the same time). If multiple
 appliances are used simultaneously, the actual power consumption might be higher.
 
 5.There is no validation for user input. For example, if a user inputs a negative time or power value, the application might not handle it correctly
